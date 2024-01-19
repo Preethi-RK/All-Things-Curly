@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#quiz {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#results {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}

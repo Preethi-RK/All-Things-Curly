@@ -1,0 +1,29 @@
+<!---html part--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz">
+        <h1>Hair Quiz</h1>
+        <p>Question 1 of 10</p>
+        <!-- Add more questions here -->
+        <label for="q1">What is your curl pattern?</label>
+        <input type="radio" id="q1-wavy" name="q1" value="wavy" required>
+        <label for="q1-wavy">Wavy</label><br>
+        <!-- Add more options here -->
+        <button id="submit">Submit</button>
+    </div>
+    <div id="results" style="display:none;">
+        <h2>Your Results</h2>
+        <p id="result-text"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!---css part--->
+
